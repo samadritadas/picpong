@@ -2278,6 +2278,11 @@ padding: 120px 10px 50px 350px;
 
 
 @media screen and (max-width: 399px) {
+	
+.app .hero-section {
+
+	margin-bottom: 15%;
+}	
 .hero-section img{
 	padding-top: 20px;
 }
