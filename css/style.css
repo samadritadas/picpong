@@ -1431,7 +1431,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app-features {
 
-
+background-size: cover;
 background-image: url(../images/confetti.png);
 	/*background-image: radial-gradient(circle, #827df2, #7570ea, #6962e2, #5c55da, #4e48d2);
 	background:#4E48D2;*/
