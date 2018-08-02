@@ -123,16 +123,40 @@ h1, h2, h3, h4, h5, h6 {
 	 text-transform: none;
 }
 
+.light{
+	font-weight: 400;
+}
+
+.pitch-intro p{
+	padding-right: 20px;
+}
 
 
 
 p {
 	font-family:  "Avenir", Arial, sans-serif;
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: 400;
 	color: #222222;
 	line-height: 1.5em;
 	margin: 20px 0 20px 0;
+}
+
+#video{
+
+}
+
+#first{
+padding-bottom: 5%;
+}
+
+
+#secondish{
+padding-bottom: 5%;
+}
+
+#third{
+padding-bottom: 5%;
 }
 
 
@@ -596,6 +620,16 @@ mark{
 	
 }
 
+#team{background-image: url(../images/team-photo.png);
+	height: 80vh;
+    /* -webkit-background-size: cover; */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+	
+}
 
 
 #strategycover{background-image: linear-gradient(rgba(99, 47, 216, 0.75), rgba(99, 47, 216, 0.75)),url(../images/strategy2.jpg);
@@ -2448,7 +2482,7 @@ font-size: 12px;
 
 
 .question{
-	padding: 0px 10px 0px 350px;
+	padding: 100px 0 0px 0px;
 }
 
 .second {
@@ -2508,8 +2542,179 @@ padding: 120px 10px 50px 350px;
  }
 }
 
+@media only screen and (max-width: 767px){
+
+
+.navbar-default {
+    border: 0px;
+    background-color: #ffffff;
+}
+}
 
 @media screen and (max-width: 399px) {
+
+#team {
+    background-image: url(../images/team-photo.png);
+    height: 45vh;}
+
+	.tabs{
+padding-bottom: 20px;
+	}
+
+	.split-image{
+		padding-bottom: 50px;
+	}
+
+
+#first{
+padding-bottom: 20%;
+}
+
+
+#secondish{
+padding-bottom: 20%;
+}
+
+#third{
+padding-bottom: 20%;
+}
+
+.pitch ul {
+    padding: 0px 20px;}
+
+	.second {
+    padding: 0px;
+}
+
+
+	#Method1 h1{
+		padding: 20px;
+
+    font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+}
+	
+
+	#Method1 p{
+		padding: 0px 20px;
+
+	}
+
+
+	#Method2 h1{
+		padding: 20px;
+
+    font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+	}
+
+
+#Method2 p{
+		padding: 0px 20px;
+	}
+
+
+	#Method3 h1{
+		padding: 20px;
+
+    font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+	}
+#Method3 p{
+		padding: 0px 20px;
+	}
+
+	#Method4 h1{
+		padding: 20px;
+
+    font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+	}
+
+	#Method4 p{
+		padding: 0px 20px;
+	}
+
+
+	#Method5 h1{
+		padding: 20px;
+
+    font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+	}
+
+
+#Method5 p{
+		padding: 0px 20px;
+
+    
+	}
+
+
+	#Method3 h1{
+		padding: 20px;
+
+    font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+	}
+#Method6 p{
+		padding: 0px 20px;
+	}
+
+
+	#Method7 h1{
+		padding: 20px;
+			line-height: 1.5;
+			font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+	}
+
+	#Method7 p{
+		padding: 0px 20px;
+
+	}
+
+
+	#Method8 h1{
+		padding: 20px;
+		font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+	}
+
+
+#Method8 p{
+		padding: 0px 20px;
+	}
+
+
+	#Method9 h1{
+		padding: 20px;font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+	}
+#Method9 p{
+		padding: 0px 20px;
+	}
+
+.w3-button {
+    width: 100%;
+    outline-style: none;
+    margin-right: 0px;
+    padding: 20px 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border-bottom: 1px solid #d6d6d6;
+    font-family: "Avenir", Arial, sans-serif;
+}
+
 
 	.hero-content p {
 
@@ -2518,7 +2723,7 @@ padding: 120px 10px 50px 350px;
 }
 
 .app .hero-content {
-    padding: 100px 0 0 0;
+    padding: 150px 20px 150px 20px;
 }
 
 
