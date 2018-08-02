@@ -959,6 +959,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app .hero-section {
 	padding: 50px 0 0 0;
+	    margin-bottom: 15%;
 }
 
 .app .hero-content {
